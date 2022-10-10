@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Library;
 
 namespace PII_Herencia
 {
@@ -7,6 +8,15 @@ namespace PII_Herencia
     {
         static void Main(string[] args)
         {
+            Usuario pasajero1 = new Pasajero("Pepe","Álvarez","54912398",5);
+            Usuario conductor1 = new Conductor("Brian","Mor","434543",3,"Ferrari","Montevideo");
+            Conductor conductorPool1 = new ConductorPool("Jose","Raerera","48578391",3,"Onix","Montevideo",3);
+            Console.WriteLine(conductor1);
+            Console.WriteLine(pasajero1.Nombre);
+
+
+
+
             /*
             En éste método deberas mostrar un ejemplo de funcionamiento de tu programa an pseudocódigo. A continuación te 
             planteamos un ejemplo de como hacerlo. Esto no significa que te limites a hacer solamente esto, debes pensar 
@@ -35,6 +45,7 @@ namespace PII_Herencia
             Se publica en Twitter nuevo registro de pasajero!
 
             */
+        
         }
     }
 }
