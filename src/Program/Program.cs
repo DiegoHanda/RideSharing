@@ -8,8 +8,8 @@ namespace PII_Herencia
     {
         static void Main(string[] args)
         {
-            Usuario pasajero1 = new Pasajero("Pepe","Álvarez","54912398",5);
-            Usuario conductor1 = new Conductor("Brian","Mor","434543",3,"Ferrari","Montevideo");
+            Usuario pasajero1 = new Pasajero("Diego","Handalian","54912398",5);
+            Usuario conductor1 = new Conductor("Brian","Morales","434543",3,"Ferrari","Montevideo");
             Conductor conductorPool1 = new ConductorPool("Jose","Raerera","48578391",3,"Onix","Montevideo",3);
             // Console.WriteLine(conductor1);
             // Console.WriteLine(pasajero1);
