@@ -11,8 +11,15 @@ namespace PII_Herencia
             Usuario pasajero1 = new Pasajero("Pepe","Álvarez","54912398",5);
             Usuario conductor1 = new Conductor("Brian","Mor","434543",3,"Ferrari","Montevideo");
             Conductor conductorPool1 = new ConductorPool("Jose","Raerera","48578391",3,"Onix","Montevideo",3);
-            Console.WriteLine(conductor1);
-            Console.WriteLine(pasajero1.Nombre);
+            // Console.WriteLine(conductor1);
+            // Console.WriteLine(pasajero1);
+            // Console.WriteLine(conductorPool1);
+            Console.WriteLine(Conductor.listac);
+            for (var i = 0; i < Conductor.listac.Count; i++) 
+            {
+            Console.WriteLine(Conductor.listac[i]);
+            }
+                
 
 
 
